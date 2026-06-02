@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    /* Set background utama web lu ke Canvas White dan warna teks standar */
+    @apply bg-canvas text-ink antialiased;
+  }
+}
