@@ -1,6 +1,6 @@
-export interface habit {
-    id: string;
-    namaHabit:string;
-    waktuDibuat:string;
-    waktuSelesai:string;
+export interface Habit {
+  id: string;
+  name: string;
+  createdAt: string;
+  completedDates: string[];
 }
