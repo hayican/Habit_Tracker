@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useHabitStore } from "../../../store/useHabitStore";
-import { Button } from "../../common/button";
+import { Button } from "../../common/Button";
 
 export const HabitForm = () => {
   // 1. Ini untuk nyimpen teks yang lagi lu ketik sementara
